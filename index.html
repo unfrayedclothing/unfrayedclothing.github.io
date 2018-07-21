@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+  <style>
+  * {
+	  box-sizing: border-box;
+  }
+	  body{
+		  border-top: 1em solid #252525;
+		  padding: 0;
+		  margin: 0;
+	  	text-align: center;
+		font-family: Nunito, sans-serif;
+	}
+	main {
+		padding: 2em 1em;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%,0);
+		opacity: .5;
+	}
+	.overlay:hover {
+		opacity: 0;
+	}
+	.h3 {
+		font-size: 1em;
+		margin: 1.25em auto 0;
+		line-height: 1.25em;
+	}
+	.undercase {
+		text-transform: uppercase;
+		font-weight: 800;
+		display: block;
+		letter-spacing: .045em;
+	}
+	.made-in {
+		font-weight: 100;
+		font-size: .95em;
+	}
+	.logo {
+		display: block;
+		margin: 0 auto;
+		max-width: 21em;
+	}
+	.h1 {
+		font-size: 2.075em;
+		text-transform: uppercase;
+		letter-spacing: .01em;
+		margin: .25em auto;
+	}
+	p {
+		max-width: 26em;
+		margin: 1.25em auto;
+		font-size: .9em;
+	}
+	.social img {
+		max-width: 1.75em;
+		opacity: .5;
+	}
+	.assistive {
+		display: none;
+	}
+	@media (min-width:800px){
+		body {
+			font-size: 1.2em;
+		}
+	}
+
+	input {
+		border: none;
+		border-bottom: 2px solid;
+		margin-right: 1em;
+		font-size: .65em;
+	}
+
+	.mc-field-group {
+		display: inline-block;
+	}
+
+	.button {
+		display: inline-block;
+		background: #252525;
+		border: none;
+		color: #fff;
+		padding: .5em 1em;
+		-webkit-appearance: none;
+		font-size: 1.1rem;
+		text-transform: uppercase;
+		letter-spacing: .12em;
+	}
+
+	#mc_embed_signup {
+		font-size: 1.5em;
+		margin-top: 1.5em;
+		margin-bottom: 1.3em;
+	}
+
+	.email {
+		font-style: italic;
+	}
+
+  </style>
+</head>
+
+<body>
+	<main>
+	<!-- <img class="overlay" src="overlay.jpg" /> -->
+	<h1 class="h3"><span class="undercase">Lasting organic knits for kids </span><span class="made-in">Made in the U.S.A.</span></h1>
+	<img class="logo" src="logo.svg" alt="Unfrayed Clothing" />
+	<h2 class="h1">COMING FALL/WINTER 2018</h2>
+	<p>Become an Unfrayed Insider to be the first to hear about new launches, exclusive Insider sales, and more.</p>
+	<!-- Begin MailChimp Signup Form -->
+	<div id="mc_embed_signup">
+		<form action="https://unfrayedclothing.us18.list-manage.com/subscribe/post?u=3dbec205f0f2367a245efbf59&amp;id=5757b8111b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+		    <div id="mc_embed_signup_scroll">
+		<div class="mc-field-group">
+			<label for="mce-EMAIL" class="assistive">Email Address </label>
+			<input type="email" value="" name="EMAIL" required placeholder="enter email" class="required email" id="mce-EMAIL" />
+			<input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="button">
+		</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3dbec205f0f2367a245efbf59_5757b8111b" tabindex="-1" value=""></div>
+		    </div>
+		</form>
+	</div>
+	<!--End mc_embed_signup-->
+
+	<div>
+		<a href="" class="social"><img src="facebook.svg" alt="Find us on Facebook" /></a>
+		<a href="" class="social"><img src="instagram.svg" alt="Find us on Instagram" /></a>
+	</div>
+</main>
+</body>
+</html>
